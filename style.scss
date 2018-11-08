@@ -18,9 +18,12 @@ html {
 }
 
 body {
-	background: $white;
+	background-image: $white;
+background-repeat: no-repeat;
+background-attachment: fixed;
+	background-positioner: center;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: #e6e6e6;
 }
 
 .container {
